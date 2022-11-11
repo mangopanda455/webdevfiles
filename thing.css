@@ -49,8 +49,16 @@
 }
 
 .logintext {
-    font-family: Dyuthi;
+    font-family: dyuthiregular;
     font-size: xx-large;
     margin-top: -10px;
     color: rgb(100, 100, 100);
+}
+
+@font-face {
+    font-family: 'dyuthiregular';
+    src: url('dyuthi-webfont.woff2') format('woff2'),
+         url('dyuthi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
