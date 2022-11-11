@@ -62,3 +62,21 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.loginbutton {
+    margin-top: 360;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 17.5px;
+    background-color: rgb(100, 100, 100);
+    color: rgb(15, 15, 15);
+    font-family: dyuthiregular;
+    font-size: x-large;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.loginbutton:hover {
+    transform: scale(1.1, 1.1);
+}
