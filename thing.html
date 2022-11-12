@@ -6,8 +6,27 @@
             <div class="logintext">
                 <h1>Login</h1>
             </div>
+            <div class="username">
+                <form>
+                    <label for="username" class="usernamelabel">
+                        Username
+                    </label>
+                    <input type="text" id="username" class="usernameclass" id="userid">
+                </form>
+            </div>
+            <div class="password">
+                <form>
+                    <label for="password" class="passwordlabel">
+                        Password
+                    </label>
+                    <input type="text" id="password" class="passwordclass" id="passid">
+                </form>
+            </div>
+            <div class="afterlog" id="afterlogin">
+                <h1>Logged In!</h1>
+            </div>
             <div class="loginbuttonclass">
-                <button id="loginbuttonid" class="loginbutton" onclick="">
+                <button id="loginbuttonid" class="loginbutton" onclick="show()">
                     Login
                 </button>
             </div>

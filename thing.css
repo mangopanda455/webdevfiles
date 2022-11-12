@@ -64,7 +64,7 @@
 }
 
 .loginbutton {
-    margin-top: 360;
+    margin-top: 240;
     border: none;
     height: 35px;
     width: 100px;
@@ -79,4 +79,34 @@
 
 .loginbutton:hover {
     transform: scale(1.1, 1.1);
+}
+
+
+label {
+    display: inline-block;color: white;
+    width: 100px;
+    text-align: right;
+    margin-right: 40px;
+    color: rgb(100, 100, 100);
+    font-family: dyuthiregular;
+    font-size: xx-large;
+}
+
+input {
+    border: none;
+    height: 30;
+    width: 170;
+    border-radius: 15px;
+    background-color: rgb(100, 100, 100);
+}
+
+.passwordclass {
+    margin-top: 30px;
+}
+
+.afterlog {
+    color: white;
+    font-family: dyuthiregular;
+    color: rgb(100, 100, 100);
+    display: none;
 }
