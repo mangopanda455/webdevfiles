@@ -105,8 +105,9 @@ input {
 }
 
 .afterlog {
-    color: white;
     font-family: dyuthiregular;
-    color: rgb(100, 100, 100);
-    display: none;
+    color: rgba(100, 100, 100);
+    display: block;
+    opacity: 0;
+    margin-bottom: -100px;
 }
